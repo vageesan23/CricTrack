@@ -27,9 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p text-align="center">
-  <a href="http://gitlab.sliit.lk/2021-172/2021-172">
-    <img src="client/assets/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  
 
   <h3 text-align="center">Cricket4U</h3>
 
