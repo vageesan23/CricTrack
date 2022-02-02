@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Cricket4u",
+    "slug": "Cricket4u",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logore.png",
+    "splash": {
+      "image": "./assets/logore.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191970"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.cricket4u.cricket4u",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logore.png",
+        "backgroundColor": "#191970"
+      },
+      "package": "com.mithelan.Cricket4u"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
