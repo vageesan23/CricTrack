@@ -166,12 +166,5 @@ start the server with
 ```
 ->  uvicorn src.main:app --reload
 ```
-## Contact
 
-R.Vithurson - - IT18142556 - it18142556@my.sliit.lk
-<br />
-D.Mithelan - - IT18125344 - it18125344@my.sliit.lk
-<br /> 
-A.M.Karthik - IT18190762 - it18190762@my.sliit.lk
-<br />
-A.Narthanan - - IT18188196 - it18188196@my.sliit.lk
+
