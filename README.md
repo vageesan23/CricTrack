@@ -29,7 +29,7 @@
 <p text-align="center">
   
 
-  <h3 text-align="center">Cricket4U</h3>
+  <h3 text-align="center">CricTrack</h3>
 
   <p text-align="center">
    A better place to learn Cricket
