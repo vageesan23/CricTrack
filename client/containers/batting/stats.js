@@ -101,7 +101,8 @@ class BattingStats extends Component {
     try {
 
       if (prevState.shotSelected !== shotSelected) {
-        await getUserBattingStats(3, shotSelected);
+        await getUserBattingStats(currentUser.id, shotSelected);
+        console.log(currentUser);
         this.setData();
       }
     } catch (error) {
@@ -149,6 +150,7 @@ class BattingStats extends Component {
   render() {
     const { data, shotSelected, chartConfig } = this.state;
     const { userBattingStats, average } = this.props;
+    console.log(userBattingStats)
 
     let colors=['#A598D0','#D65D8C','#9B2D06','#57BC1C','#5B2235'],chartDoc=[],i=0;
 

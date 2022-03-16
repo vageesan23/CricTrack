@@ -114,7 +114,7 @@ export function PostLoginUser(values) {
       try {
         dispatch({ type: POST_USER_LOGIN_LOADING, payload: true });
         const response = await axios.post(
-          `/auth/login`,
+          `http://127.0.0.1:8000/api/auth/login`,
           values
           );
         axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.user.token}`;

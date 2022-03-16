@@ -22,14 +22,15 @@ function S3Upload(props) {
 
   const options = {
     keyPrefix: "batting/",
-    bucket: BUCKET_NAME,
-    region: REGION,
-    accessKey: ACCESS_KEY,
-    secretKey: SECRET_KEY_S3,
+    bucket: 'cricketforyou',
+    region: 'us-east-2',
+    accessKey: 'AKIAQ5X6LD4555Q6S4BB',
+    secretKey: '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',
     successActionStatus: 201,
   };
 
   const addPhoto = async () => {
+    console.log(options)
     setImageUploadLoading(true);
     RNS3.put(file, options)
       .progress((event) => {
@@ -38,7 +39,7 @@ function S3Upload(props) {
       })
       .then((res) => {
         if (res.status === 201) {
-          g("Success", res.body);
+          ("Success", res.body);
           props.getResults(res.body.postResponse);
           setImageUploadLoading(false);
         }

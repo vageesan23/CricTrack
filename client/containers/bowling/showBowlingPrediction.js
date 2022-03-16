@@ -65,7 +65,7 @@ class ShowBowlingPrediction extends Component {
             onPress={() => this.onSaveShot()}
             title="Save Results"
             bgColor="rgba(108, 105, 213, 0.37)"
-            txtColor="black"
+            // txtColor="black"
           />
 
         </View>

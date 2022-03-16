@@ -16,6 +16,11 @@ PASSWORD:str = config("PASSWORD",cast=str,default="root")
 DB:str = config("DB",cast=str,default="cricket4u")
 SECRET_KEY: Secret = config("SECRET_KEY",default="secret", cast=Secret)
 
+print(USER_NAME)
+print(PASSWORD)
+print(HOST)
+print(DB)
+
 
 
 

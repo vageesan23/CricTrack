@@ -77,6 +77,7 @@ def save_batsman_shot_info(battingObj: battingSchema.BattingSaveInfo, db: Sessio
 @app.get("/users/{user_id}/batting-stats", response_model=List[battingSchema.GetBattingInfo])
 def read_user(user_id: int,shotType:str):
     shotDetails = BattingRepository.get_user_batting_stats(user_id=user_id,shotType=shotType)
+    print(shotDetails)
     if shotDetails is None:
         raise HTTPException(status_code=404, detail="No Data")
     return shotDetails
