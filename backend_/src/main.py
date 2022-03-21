@@ -33,7 +33,7 @@ def get_db():
 PREFIX='/api'
 
 def get_application() -> FastAPI:
-    application = FastAPI(title='Cricket4u API Service', debug='DEBUG', version='0.1')
+    application = FastAPI(title='CricTrack API Service', debug='DEBUG', version='0.1')
 
     application.add_middleware(
         CORSMiddleware,
