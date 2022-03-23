@@ -97,17 +97,39 @@ class ShowPrediction extends Component {
           ) : (
             <View styles={styles.buttonFlex}>
               {shotType.notFound ? null : (
-                <PressableButton
-                  onPress={() => this.onSaveShot()}
-                  title="Save"
-                  bgColor="#256BF4"
-                />
+                <Button
+                // icon={<Icon name="code" color="#ffffff" />}
+                buttonStyle={{
+                  borderRadius: 0,
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginBottom: 10,
+                }}
+                title="Save"
+                onPress={() => this.onSaveShot()}
+              />
+                // <PressableButton
+                //   onPress={() => this.onSaveShot()}
+                //   title="Save"
+                //   bgColor="#256BF4"
+                // />
               )}
-              <PressableButton
+              <Button
+                // icon={<Icon name="code" color="#ffffff" />}
+                buttonStyle={{
+                  borderRadius: 0,
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginBottom: 0,
+                }}
+                title="Try Again..."
+                onPress={() => this.props.navigation.navigate("HomePage")}
+              />
+              {/* <PressableButton
                 onPress={() => this.props.navigation.navigate("HomePage")}
                 title="Try Again..."
                 bgColor="#5C60C2"
-              />
+              /> */}
             </View>
           )}
         </View>
