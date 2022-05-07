@@ -148,7 +148,7 @@ function HomeBottomNavigation(props) {
                   style={{
                     width: 55,
                     height: 55,
-                    backgroundColor: "blue",
+                    backgroundColor: "#0da82f",
                     borderRadius: 30,
                     justifyContent: "center",
                     alignItems: "center",

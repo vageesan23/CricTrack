@@ -39,7 +39,7 @@ class HomePage extends Component {
             customStyles={styles.svgCurve}
             customHeight={100}
             customTop={0}
-            customBgColor="#0A378F"
+            customBgColor="#0da82f"
             header="Latest Stats"
             currentUser={currentUser}
           />
@@ -160,8 +160,9 @@ const styles = StyleSheet.create({
   },
   boxContainer: {
     backgroundColor: "#fff",
-    marginTop: 54,
+    marginTop: 85,
     padding: 20,
+    height: 450,
   },
   svgCurve: {
     position: "absolute",

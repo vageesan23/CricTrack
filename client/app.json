@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Cricket4u",
-    "slug": "Cricket4u",
+    "name": "CricTrack",
+    "slug": "CricTrack",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logore.png",
+    "icon": "./assets/splashLogo.png",
     "splash": {
-      "image": "./assets/logore.png",
+      "image": "./assets/splashLogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#191970"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logore.png",
+        "foregroundImage": "./assets/splashLogo.png",
         "backgroundColor": "#191970"
       },
       "package": "com.mithelan.Cricket4u"

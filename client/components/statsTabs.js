@@ -26,7 +26,7 @@ class StatsTabs extends Component {
               customStyles={styles.svgCurve}
               customHeight={100}
               customTop={0}
-              customBgColor="#0A378F"
+              customBgColor="#0da82f"
               header="Performance"
             />
           </View>
@@ -38,7 +38,7 @@ class StatsTabs extends Component {
             }}
           >
             <Tab.Screen name="Batting Stats" component={BattingStats} />
-            <Tab.Screen name="Bowling Stats" component={EmptyScreen} />
+            {/* <Tab.Screen name="Bowling Stats" component={EmptyScreen} /> */}
           </Tab.Navigator>
         </View>
       );
