@@ -21,7 +21,6 @@ import { SelectVideo } from "./selectVideo";
 
 const SECTIONS = [
   {
-    title: "Batting",
     horizontal: true,
     data: [
       {
@@ -47,24 +46,24 @@ const SECTIONS = [
       }
     ],
   },
-  {
-    title: "Bowling",
-    horizontal: true,
-    data: [
-      {
-        key: "1",
-        text: "Wicket Taking Percentage",
-        uri: require("../../assets/battingPic.jpeg"),
-        videoOption:true
-      },
-      {
-        key: "2",
-        text: "Find your speed",
-        uri: require("../../assets/battingPic.jpeg"),
-        videoOption:true
-      }
-    ],
-  },
+  // {
+  //   title: "Bowling",
+  //   horizontal: true,
+  //   data: [
+  //     {
+  //       key: "1",
+  //       text: "Wicket Taking Percentage",
+  //       uri: require("../../assets/battingPic.jpeg"),
+  //       videoOption:true
+  //     },
+  //     {
+  //       key: "2",
+  //       text: "Find your speed",
+  //       uri: require("../../assets/battingPic.jpeg"),
+  //       videoOption:true
+  //     }
+  //   ],
+  // },
 ];
 
 class ListItem extends Component {
@@ -103,7 +102,7 @@ class ListItem extends Component {
     let type=section.title;
   return (
     <View style={styles.item}>
-      <Card containerStyle={{height:300,width:250}} >
+      <Card containerStyle={{height:420,width:340}} >
         <Card.Title>{item.text}</Card.Title>
         <Card.Divider />
         <View style={styles.card1}>
@@ -192,7 +191,7 @@ class UploadMenuCard extends Component {
         customStyles={styles.svgCurve}
         customHeight={100}
         customTop={0}
-        customBgColor="#0A378F"
+        customBgColor="#0da82f"
         header="Upload"
         headerContainer={styles.headerContainer}
         headerText={styles.headerText}
@@ -265,9 +264,11 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
   image:{
-    height: 150,
-    width: 200,
+    height: 200,
+    width: 250,
     borderRadius:10,
+    marginTop: 10,
+    marginBottom: 30,
   },
   card1: {
     justifyContent: 'center',

@@ -27,7 +27,7 @@ class WelcomePage extends Component {
               flexDirection: "row",
               flexWrap: "wrap",
             }}
-            source={require("../../assets/logo.png")}
+            source={require("../../assets/logo3.png")}
             resizeMode="contain"
           />
          
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     height: 20,
   },
   baseText: {
-    color: "#FBBC05",
+    color: "#0da82f",
     fontSize: 28,
     fontWeight: "bold",
     textAlign: "center",

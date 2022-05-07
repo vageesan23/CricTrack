@@ -58,7 +58,7 @@ class ShowPrediction extends Component {
             customStyles={styles.svgCurve}
             customHeight={100}
             customTop={0}
-            customBgColor="#0A378F"
+            customBgColor="#0da82f"
             header="Prediction"
             backButton={true}
           />
