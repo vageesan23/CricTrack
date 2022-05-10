@@ -22,10 +22,10 @@ function S3Upload(props) {
 
   const options = {
     keyPrefix: "batting/",
-    bucket: 'cricketforyou',
-    region: 'us-east-2',
-    accessKey: 'AKIAQ5X6LD4555Q6S4BB',
-    secretKey: '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',
+    bucket: 'cricketforyou1',
+    region: 'us-east-1',
+    accessKey: 'AKIATYRFNAPNDOEHM2GO',
+    secretKey: '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',
     successActionStatus: 201,
   };
 
