@@ -48,7 +48,7 @@ class HomePage extends Component {
         <BoxContainer style={styles.boxContainer}>
           {!isEmpty(latestStats) ? (
             <View>
-              <Text style={{ fontSize: 16, fontFamily: "Poppins" }}>
+              <Text style={{ fontSize: 16, fontWeight: "bold", fontFamily: "Poppins", marginBottom: 30  }}>
                 Batting Performance
               </Text>
 
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     marginTop: 85,
     padding: 20,
-    height: 450,
+    height: 480,
   },
   svgCurve: {
     position: "absolute",

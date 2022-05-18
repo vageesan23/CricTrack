@@ -167,11 +167,3 @@ This is an example of how to list things you need to use the software and how to
 ```
 ->  uvicorn src.main:app --reload
 ```
-
-expo start --port 8000
-
-SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
-
-Numpy = 1.20
-
-poetry shell
