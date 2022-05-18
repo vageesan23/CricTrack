@@ -7,12 +7,15 @@ export const noInternet=require("../assets/lottie/nointernet.json");
 
 //batting
 export const coverDrive=require("../assets/cricketBatting/coverDrive.png");
+export const coverNew=require("../assets/cricketBatting/coverNew.png");
+
 
 export default {
   login,
   register,
   emptyContainer,
   coverDrive,
+  coverNew,
   fetchDataLoader,
   noInternet
 }

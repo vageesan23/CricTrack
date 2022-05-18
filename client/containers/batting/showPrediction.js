@@ -65,7 +65,7 @@ class ShowPrediction extends Component {
         </View>
         <View style={styles.container}>
           {shotType.notFound ? null : (
-            <Image style={styles.battingImage} source={images.coverDrive} />
+            <Image style={styles.battingImage} source={images.coverNew} />
           )}
 
           {shotPredictLoading ? (
@@ -100,7 +100,7 @@ class ShowPrediction extends Component {
                 <Button
                 // icon={<Icon name="code" color="#ffffff" />}
                 buttonStyle={{
-                  borderRadius: 0,
+                  borderRadius: 12,
                   marginLeft: 0,
                   marginRight: 0,
                   marginBottom: 10,
@@ -117,12 +117,13 @@ class ShowPrediction extends Component {
               <Button
                 // icon={<Icon name="code" color="#ffffff" />}
                 buttonStyle={{
-                  borderRadius: 0,
+                  borderRadius: 12,
                   marginLeft: 0,
                   marginRight: 0,
                   marginBottom: 0,
+                  width:150
                 }}
-                title="Try Again..."
+                title="Try Again"
                 onPress={() => this.props.navigation.navigate("HomePage")}
               />
               {/* <PressableButton
@@ -141,7 +142,8 @@ class ShowPrediction extends Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#ffffff",
-    marginTop: 40,
+    marginTop: 50,
+    marginBottom:180,
     display: "flex",
     alignItems: "center",
   },
@@ -162,14 +164,16 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   predicted: {
-    fontSize: 20,
+    fontSize: 40,
+    marginTop:20,
     color: "#59597C",
     fontWeight: "bold",
     textAlign: "center",
   },
   accuracy: {
     marginTop: 3,
-    fontSize: 16,
+    marginBottom: 40,
+    fontSize: 20,
     color: "#59597C",
     fontWeight: "bold",
     textAlign: "center",

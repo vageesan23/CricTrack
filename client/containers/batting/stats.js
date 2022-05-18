@@ -224,9 +224,10 @@ class BattingStats extends Component {
                 <LineChart
                   data={data}
                   width={screenWidth}
-                  height={350}
+                  height={300}
                   verticalLabelRotation={50}
                   chartConfig={chartConfig}
+                  verticalLabelRotation={35}
                   bezier
                 />
                  </>
@@ -242,11 +243,11 @@ class BattingStats extends Component {
               //  style={graphStyle}
                data={data}
                width={screenWidth}
-               height={350}
+               height={300}
                verticalLabelRotation={50}
                yAxisLabel=""
                chartConfig={chartConfig}
-               verticalLabelRotation={30}
+               verticalLabelRotation={35}
              />
              </>
               )}
